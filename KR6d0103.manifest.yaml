@@ -1,0 +1,112 @@
+canonical_identifier: bkk:krp/KR6d0103/v1
+canonical_location: https://kanripo.org/bkk/KR6d0103/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 法華經疏
+  identifiers:
+    alt_id:
+    - T85n2751
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2751.xml
+    old_id: T85n2751
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0103_000.yaml, hash: 'sha256:d5d49a3e7ac456cab4f8c77e78f3fc458052103d39e7df3c6b988e151108b64f'}
+  - {seq: 1, filename: KR6d0103_001.yaml, hash: 'sha256:496b3ded7e6fdc8ff2bd26962f809c70c1a743f00233d37354798b5b941867f2'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6d0103_001.markers.yaml, hash: 'sha256:3683427b692d4ed56b69b39cf59840acd71100f6b74149155dc8fb928b920a3e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0103_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6305
+  label: 法華經疏
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0103_T_001-mulu-1
+    span:
+    - body
+    - 714
+    - 714
+  label: 囑累品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0103_T_001-mulu-2
+    span:
+    - body
+    - 1245
+    - 1245
+  label: 藥王品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0103_T_001-mulu-3
+    span:
+    - body
+    - 2059
+    - 2059
+  label: 妙音品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0103_T_001-mulu-4
+    span:
+    - body
+    - 3072
+    - 3072
+  label: 觀世音品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0103_T_001-mulu-5
+    span:
+    - body
+    - 3789
+    - 3789
+  label: 陀羅尼品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0103_T_001-mulu-6
+    span:
+    - body
+    - 4189
+    - 4189
+  label: 妙莊嚴王品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0103_T_001-mulu-7
+    span:
+    - body
+    - 4521
+    - 4521
+  label: 普賢品
+  type: mulu
+  level: 1
+hash: sha256:028603b6c5e19b79d79480d1a34e6678cdf956671dd9800c28c648d0ecdb0d10
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

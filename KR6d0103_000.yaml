@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6d0103/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 法華經疏
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2751.xml
+    old_id: T85n2751
+hash: sha256:d5d49a3e7ac456cab4f8c77e78f3fc458052103d39e7df3c6b988e151108b64f
